@@ -1,0 +1,10 @@
+version: 0.1
+
+endpoints:
+  - name: "REST API"
+    port: 8000
+    type: REST
+    networlVisibility: Public
+    context: /
+
+    # endpoints for choreo to configure when it deploys. port details, visibility, context '/' means everything to be deployed
